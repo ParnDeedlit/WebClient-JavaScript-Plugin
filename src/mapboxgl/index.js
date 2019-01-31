@@ -1,5 +1,5 @@
-export * from './core';
-export * from './overlay';
+export * from './core/index.js';
+export * from './overlay/index.js';
 
 
 

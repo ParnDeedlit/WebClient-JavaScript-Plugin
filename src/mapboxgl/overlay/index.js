@@ -28,5 +28,5 @@ export {
 }
 from './ElsCubeLayer';
 
-export * from './mapv';
-export * from './echarts';
+export * from './mapv/index.js';
+export * from './echarts/index.js';
