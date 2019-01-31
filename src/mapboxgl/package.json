@@ -1,0 +1,21 @@
+{
+    "name": "@mapgis/webclient-mapboxgl-plugin",
+    "description": "",
+    "version": "10.3.0",
+    "keywords": [
+      "MapGIS",
+      "MapboxGL"
+    ],
+    "homepage": "https://github.com/MapGIS/WebClient-JavaScript",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ParnDeedlit/WebClient-JavaScript-Plugin"
+    },
+    "author": "parndeedlit",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "echarts": "4.2.0",
+      "mapv": "2.0.33",
+      "mapbox-gl": "0.52.0"
+    }
+  }

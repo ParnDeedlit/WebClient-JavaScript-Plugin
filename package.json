@@ -1,15 +1,20 @@
 {
   "name": "@zondy/webclient-plugin",
-  "version": "10.3.0",
+  "version": "10.3.0.0",
   "description": "",
   "scripts": {
     "mapbox-debug": "webpack --config webpack/mapbox-config.js",
     "mapbox-release": "webpack --config webpack/mapbox-config.js --progress",
     "mapbox-es5": "babel src --out-dir distes5",
-    "mapbox-cmj": "rollup -c rollup/rollup.mapboxgl.config.js"
+    "mapbox-cmj": "rollup -c rollup/rollup.mapboxgl.config.js",
+    "mapbox-publish": "cd src/mapboxgl && npm publish --access=public"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParnDeedlit/WebClient-JavaScript-Plugin.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
