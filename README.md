@@ -20,19 +20,18 @@
 ## 目录
 
 - [开始](#getting-started)
-  - [示例](#demos)
-  - [使用方式](#example)
-  - [API 引用](#api-reference)
-  - [其他插件](#additional-plugins)
-  - [问题](#issues)
-  - [依赖](#dependencies)
-- [深入了解](#going-deeper)
-  - [开发说明](#development-instructions)
-  - [版本](#versioning)
-  - [贡献人员](#contributing)
-- [团队](#terms)
-- [验证](#credit)
-- [证书](#license)
+  - [示例](#示例)
+  - [使用方式](#使用方式)
+  - [API接口](#API接口)
+  - [独立插件](#独立插件)
+  - [问题](#问题)
+  - [依赖](#依赖)
+- [深入了解](#深入了解)
+  - [开发说明](#开发说明)
+  - [版本控制](#版本控制)
+  - [贡献方式](#贡献方式)
+- [团队](#团队)
+- [证书](#证书)
 
 ## 示例
 请看 [Zondy.Echarts](http://client.snanyun.com:8899/ui/gallery-mapbox.html#dataview), [Zondy.Mapv](http://client.snanyun.com:8899/ui/gallery-mapbox.html#dataview-mapv-path_converge), [Zondy.D3](http://client.snanyun.com:8899/ui/gallery-leaflet.html#dataview-d3-csv). 
@@ -86,7 +85,7 @@
 
 > cesium模块由三维部门`单独负责`！
 
-## 额外插件
+## 独立插件
 
 除了基本的地图脚本库：leaflet，openlauyer之外 一些常见的js库如：turfjs（空间分析）等可以直接单独引入。 **推荐使用Turf做几何判断**
 
@@ -112,7 +111,7 @@
 5. 拷贝编译好的`webclient-mapboxgl-plugins.cmj.min.js`文件单独使用
 6. 将你自己的修改提交到远程仓库[pull request](https://help.github.com/articles/creating-a-pull-request)
 
-### Dependencies
+### 依赖
 
 * webclient-leaflet-plugin.js [1.0+](https://leafletjs.com/2018/12/30/leaflet-1.4.0.html) ([CDN链接](https://unpkg.com/leaflet@1.4.0/dist/leaflet.js))
   *  [Leaflet](http://leafletjs.com) version 1.0+
