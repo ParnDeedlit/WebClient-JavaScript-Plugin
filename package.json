@@ -1,0 +1,53 @@
+{
+  "name": "@zondy/webclient-plugin",
+  "version": "10.3.0",
+  "description": "",
+  "scripts": {
+    "mapbox-debug": "webpack --config webpack/mapbox-config.js",
+    "mapbox-release": "webpack --config webpack/mapbox-config.js --progress",
+    "mapbox-es5": "babel src --out-dir distes5",
+    "mapbox-cmj": "rollup -c rollup/rollup.mapboxgl.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-class-properties": "6.11.5",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-flow-strip-types": "6.21.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-runtime": "6.11.6",
+    "clean-webpack-plugin": "0.1.18",
+    "eslint": "4.6.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "happypack": "5.0.0",
+    "json-loader": "0.5.4",
+    "react-hot-loader": "3.0.0-beta.6",
+    "source-map-loader": "0.2.3",
+    "url-loader": "0.5.9",
+    "webpack": "4.19.1",
+    "webpack-cleanup-plugin": "0.4.2",
+    "webpack-cli": "2.1.5",
+    "webpack-parallel-uglify-plugin": "0.4.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "d3": "^5.7.0",
+    "echarts": "^4.2.0-rc.2",
+    "fetch-ie8": "^1.5.0",
+    "fetch-jsonp": "^1.1.3",
+    "mapbox-gl": "^0.52.0",
+    "mapv": "^2.0.33",
+    "promise-polyfill": "^8.1.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
