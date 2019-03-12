@@ -7,7 +7,12 @@
     "mapbox-release": "webpack --config webpack/mapbox-config.js --progress",
     "mapbox-es5": "babel src --out-dir distes5",
     "mapbox-cmj": "rollup -c rollup/rollup.mapboxgl.config.js",
-    "mapbox-publish": "cd src/mapboxgl && npm publish --access=public"
+    "mapbox-publish": "cd src/mapboxgl && npm publish --access=public",
+    "leaflet-debug": "webpack --config webpack/leaflet-config.js",
+    "leaflet-release": "webpack --config webpack/leaflet-config.js --progress",
+    "leaflet-es5": "babel src --out-dir distes5",
+    "leaflet-cmj": "rollup -c rollup/rollup.leaflet.config.js",
+    "leaflet-publish": "cd src/leaflet && npm publish --access=public"
   },
   "author": "",
   "license": "Apache-2.0",

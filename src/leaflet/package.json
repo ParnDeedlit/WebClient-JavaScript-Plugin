@@ -1,0 +1,22 @@
+{
+    "name": "@mapgis/webclient-leaflet-plugin",
+    "description": "WebClient-JavaScript-Plugin的leaflet的插件库",
+    "version": "10.3.0.0",
+    "keywords": [
+      "MapGIS",
+      "Leaflet"
+    ],
+    "homepage": "https://github.com/ParnDeedlit/WebClient-JavaScript-Plugin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ParnDeedlit/WebClient-JavaScript-Plugin"
+    },
+    "author": "parndeedlit",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "d3": "^5.7.0",
+      "echarts": "^4.2.0",
+      "mapv": "^2.0.33",
+      "mapbox-gl": "^0.52.0"
+    }
+  }
