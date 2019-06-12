@@ -1,9 +1,4 @@
 export {
-  TimeSpaceCubeService
-}
-from '../../common/service/geospark/TimeSpaceCubeService';
-
-export {
   EchartsLayer
 }
 from './EchartsLayer';

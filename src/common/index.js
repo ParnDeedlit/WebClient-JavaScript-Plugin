@@ -7,3 +7,7 @@ export {
     Format,
     JSONFormat
 };
+
+export {
+    TimeSpaceCubeService
+} from './service/geospark/TimeSpaceCubeService';
