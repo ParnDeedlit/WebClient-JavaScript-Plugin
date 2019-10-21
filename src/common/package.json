@@ -1,5 +1,5 @@
 {
-  "name": "@mapgis/webclient-common-plugin",
+  "name": "@mapgis/webclient-javascript-plugin",
   "version": "10.3.0",
   "author": "Zondy & MapGIS",
   "license": "Apache-2.0",
