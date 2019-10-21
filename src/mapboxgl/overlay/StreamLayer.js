@@ -1,6 +1,6 @@
 import mapboxgl from 'mapbox-gl'
 import '../core/Base'
-import SocketService from "../service/socket/SocketService"
+import { SocketService } from "../service/socket/SocketService"
 
 import {
   SubscribeEvent,

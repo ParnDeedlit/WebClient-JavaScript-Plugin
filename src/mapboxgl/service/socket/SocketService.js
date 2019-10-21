@@ -1,4 +1,5 @@
 import mapboxgl from 'mapbox-gl'
+import '../../core/Base'
 
 import {
   SubscribeEvent,
@@ -27,7 +28,7 @@ mapboxgl.zondy.SocketService = undefined
  * @exception {DeveloperError} options.styleOption 必须是正确的样式.
  *
  */
-export default class SocketService extends mapboxgl.Evented {
+export class SocketService extends mapboxgl.Evented {
   constructor(url, options) {
     super()
     

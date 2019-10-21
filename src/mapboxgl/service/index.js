@@ -1,1 +1,1 @@
-export SocketService from "./socket/SocketService"
+export { SocketService } from './socket/SocketService.js'
