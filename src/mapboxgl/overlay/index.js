@@ -1,27 +1,31 @@
 export {
   EchartsLayer
 }
-from './EchartsLayer';
+from './EchartsLayer'
 
 export {
   MapvLayer
 }
-from './MapvLayer';
+from './MapvLayer'
 
 export {
+  StreamLayer
+} from './StreamLayer'
+
+/* export {
   D3Layer
 }
-from './D3Layer';
+from './D3Layer'; */
 
-export {
+/* export {
   TimeSpaceCubeLayer
 }
-from './TimeSpaceCubeLayer';
+from './TimeSpaceCubeLayer'; */
 
-export {
+/* export {
   ElsCubeLayer
 }
 from './ElsCubeLayer';
-
-export * from './mapv/index.js';
-export * from './echarts/index.js';
+ */
+//export * from './mapv/index.js';
+//export * from './echarts/index.js';
