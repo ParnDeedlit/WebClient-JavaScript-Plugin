@@ -1,8 +1,6 @@
 import mapboxgl from 'mapbox-gl';
 import '../core/Base';
-import {
-    MapvBaseLayer
-} from "./mapv/MapvBaseLayer";
+import { MapvBaseLayer } from "./mapv/MapvBaseLayer";
 
 /**
  * @origin author kyle / http://nikai.us/
@@ -191,9 +189,9 @@ export class MapvLayer {
     }
 
     _reset() {
-        if(this.canvas == null){
+        if (this.canvas == null) {
             return;
-        } 
+        }
         this.resizeCanvas();
         this.fixPosition();
         this.onResize();
@@ -223,7 +221,7 @@ export class MapvLayer {
      * @function mapboxgl.zondy.MapVLayer.prototype.update
      */
     update(opt) {
-        if(opt == undefined) { return; }
+        if (opt == undefined) { return; }
         this.updateData(opt.data, opt.options);
     }
 
@@ -247,7 +245,7 @@ export class MapvLayer {
 
     }
 
-    originPosition(){
+    originPosition() {
         this.originPitch = this.map.getPitch();
         this.originBearing = this.map.getBearing();
         var origin = this.map.project(new mapboxgl.LngLat(0, 0));
@@ -279,14 +277,14 @@ export class MapvLayer {
         }
     }
 
-    remove(){
+    remove() {
         this.removeAllData();
         this.unbindEvent();
         this.mapContainer.removeChild(this.canvas);
         this.disposeFlag = true;
     }
 
-    destroy(){
+    destroy() {
         this.removeAllData();
         this.unbindEvent();
         this.mapContainer.removeChild(this.canvas);

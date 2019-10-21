@@ -1,14 +1,11 @@
 import mapboxgl from 'mapbox-gl'
 import '../core/Base'
-import { SocketService } from "../service/socket/SocketService"
+import { SocketService } from '../service/socket/SocketService'
 
-import {
-  SubscribeEvent,
-  LayerEvent
-} from "../../common/service/socket/SocketEvent"
+import { SubscribeEvent } from '../service/socket/SocketEvent'
 
-import { MapvStreamLayer } from "./stream/MapvStreamLayer"
-import { GeojsonStreamLayer } from "./stream/GeojsonStreamLayer"
+import { MapvStreamLayer } from './stream/MapvStreamLayer'
+import { GeojsonStreamLayer } from './stream/GeojsonStreamLayer'
 
 /**
  * @author 基础平台/创新中心 潘卓然 ParnDeedlit
@@ -35,7 +32,7 @@ export class StreamLayer {
 
     this.bindEvent()
 
-    if (this.options.render === "mapv") {
+    if (this.options.render === 'mapv') {
       this.layer = new MapvStreamLayer(this.map, this.url, this.options)
     } else {
       this.layer = new GeojsonStreamLayer(this.map, this.url, this.options)

@@ -4,8 +4,8 @@ import '../../core/Base'
 import {
   SubscribeEvent,
   BroadcastEvent
-} from '../../../common/service/socket/SocketEvent'
-import { ISocketService } from '../../../common/service/socket/ISocketService'
+} from './SocketEvent'
+import { ISocketService } from './ISocketService'
 
 mapboxgl.zondy.SocketService = undefined
 
